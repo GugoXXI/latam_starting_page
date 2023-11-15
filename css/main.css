@@ -16,38 +16,34 @@
     font-family: merriweather-italic-3d;
     src: url(/fonts/merriweather-regular-italic.woff2);
 }
-
 body {
     background-color: #000;
     color:#fff;
     font-family: kamerik-3d;
 }
 .layers {
-perspective: 1000px;
-overflow: hidden;
+    perspective: 1000px;
+    overflow: hidden;
 }
 .layers__container {
-height: 100vh;
-min-height: 500px;
-transform-style: preserve-3d;
-transform: rotateX(var(--move-y)) rotateY(var(--move-x));
-will-change: transform;
-transition: transform var(--transition);
-
+    height: 100vh;
+    min-height: 500px;
+    transform-style: preserve-3d;
+    transform: rotateX(var(--move-y)) rotateY(var(--move-x));
+    will-change: transform;
+    transition: transform var(--transition);
 }
-.layers__item {
-position: absolute;
-inset: -5vw;
-background-size: cover;
-background-position: center;
-display: flex;
-align-items: center;
-justify-content: center;
+    .layers__item {
+    position: absolute;
+    inset: -5vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-
 .layer-1 {
-    background-image: url('/img/layer-1.jpg');
+    background-image: url('../img/layer-1.jpg');
     transform: translateZ(-55px) scale(1.06);
 }
 .layer-2 {
