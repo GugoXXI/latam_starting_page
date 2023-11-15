@@ -47,7 +47,7 @@ body {
     transform: translateZ(-55px) scale(1.06);
 }
 .layer-2 {
-    background-image: url('/img/layer-2.png');
+    background-image: url('../img/layer-2.png');
     transform: translateZ(80px) scale(.88);
 }
 .layer-3 {
@@ -57,11 +57,11 @@ body {
     transform: translateZ(190px) scale(.9);
 }
 .layer-5 {
-    background-image: url('/img/layer-5.png');
+    background-image: url('../img/layer-5.png');
     transform: translateZ(300px) scale(.9);
 }
 .layer-6 {
-    background-image: url('/img/layer-6.png');
+    background-image: url('../img/layer-6.png');
     transform: translateZ(380px);
 }
 .hero-content {
