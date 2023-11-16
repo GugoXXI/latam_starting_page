@@ -12,10 +12,6 @@
     src: url(../fonts/kamerik205-heavy.woff2);
     font-weight: 900;
 }
-@font-face {
-    font-family: merriweather-italic-3d;
-    src: url(../fonts/merriweather-regular-italic.woff2);
-}
 body {
     background-color: #000;
     color:#fff;
@@ -74,13 +70,6 @@ body {
 }
 .hero-content span {
     display: block;
-}
-.hero-content__p {
-    text-transform: none;
-    font-family: merriweather-italic-3d;
-    letter-spacing: normal;
-    font-size: calc(var(--index) * .7);
-    line-height: 3;
 }
 .button-start {
     font-family: arial;
